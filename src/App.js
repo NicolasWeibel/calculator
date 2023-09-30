@@ -1,6 +1,7 @@
 import './App.css';
 import Button from './components/Button';
 import CalculatorScreen from './components/CalculatorScreen';
+import ClearButton from './components/ClearButton';
 import calculatorLogo from './images/logo.png'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Button>0</Button>
         <Button>.</Button>
         <Button>/</Button>
+        <ClearButton />
       </div>
     </div>
   );
